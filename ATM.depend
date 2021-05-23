@@ -14,3 +14,18 @@
 1621740251 source:e:\new code\atm\main.cpp
 	"Funtion.h"
 
+1621776368 source:c:\users\admin\onedrive\máy tính\atm\funtion.cpp
+	<iostream>
+	"Funtion.h"
+
+1621776167 c:\users\admin\onedrive\máy tính\atm\funtion.h
+	<iostream>
+	<string>
+	<unistd.h>
+	<ctime>
+	<fstream>
+	<conio.h>
+
+1621776257 source:c:\users\admin\onedrive\máy tính\atm\main.cpp
+	"Funtion.h"
+

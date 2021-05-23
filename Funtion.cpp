@@ -52,6 +52,21 @@ bool CheckPass(string &mk, int dodaimk)// kiem tra xem mat khau co sung yeu cau 
         return 0;
     }
 }
+long long check_balance(long long id)
+{
+    long long line = 0;
+    fstream file("Balance.txt");
+    long long Balance;
+    while(file >> Balance)
+    {
+        line++;
+        if(line == id)
+        {
+            return Balance;
+        }
+    }
+
+}
 bool Compare_Pass(string s1, string s2)
 {
     bool ktr = 1;

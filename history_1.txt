@@ -1,0 +1,4 @@
+Sun May 23 20:27:32 2021
+nap vao : 100000 rut ra : 0.
+Sun May 23 20:27:40 2021
+nap vao : 0 rut ra : 90000.

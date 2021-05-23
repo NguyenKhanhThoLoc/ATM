@@ -188,10 +188,23 @@ void ATM::Send_money()
 }
 void ATM::Withdraw()
 {
-    cout << "So tien quy khach muon rut : " ;
+    cout << "so tien phai it hon so du tai khoan it nhat 5000 dong !! " <<endl;
+    cout << "So tien quy khach muon rut : "  ;
     long long moneyWd;
-    cin >> moneyWd;
-    cout << "VND.";
+
+    while(1)
+    {
+        long long money;
+        cin >> money;
+        if(money <= (check_balance(idnhap) - 5000))
+        {
+            moneyWd= money;
+            break;
+        }
+        system("cls");
+        cout << "So tien ban rut nhieu hon so du tai khoan !! Yeu cau nhap lai: ";
+    }
+    cout << "Ban da rut thanh cong: " << moneyWd << "VND.";
     for(int i = 1; i < 3; i++, sleep(1)) cout << '.';
     time_t hientai = time(0);
     char* dt = ctime(&hientai);
