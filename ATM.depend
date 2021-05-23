@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1621739866 source:e:\new code\atm\funtion.cpp
+	<iostream>
+	"Funtion.h"
+
+1621739616 e:\new code\atm\funtion.h
+	<iostream>
+	<string>
+	<unistd.h>
+	<ctime>
+	<fstream>
+	<conio.h>
+
+1621740251 source:e:\new code\atm\main.cpp
+	"Funtion.h"
+
